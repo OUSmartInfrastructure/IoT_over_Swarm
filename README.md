@@ -18,3 +18,7 @@ To get things started, it was required to:
 * * Hardware
   * Software
 * Test Satellite communication media
+* Setup the Adafruit QT Py
+* * Hardware
+  * Software
+* Connecting the Adafruit QT Py to the Swarm M138 board
