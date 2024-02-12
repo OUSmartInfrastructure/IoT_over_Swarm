@@ -12,9 +12,13 @@ The objectives of the project are to monitor and manage green spaces, promote en
 The Swarm M138 satellite data modem transmits and receives data to and from Swarm’s space network and is designed to be embedded into any third-party product. 
 The Swarm M138 allowsone to send and receive short messages, is perfect for a variety of low bandwidth use cases, and has a built-in GNSS receiver that makes it perfect for many tracking applications.
 It can be connected to a laptop using the serial-to-usb CH340 bus or to any IoT devices such as Raspberry Pi AND Adafruit to be used to send and receive messages anywhere.
-The Swarm M138 package toolkit is whown below:
+The Swarm M138 package toolkit is shown below:
 [Swarm M138](https://www.sparkfun.com/products/21287?_gl=1*1bzkibh*_ga*NDQ4NTc5Mzc2LjE3MDI5MzgxOTY.*_ga_T369JS7J9N*MTcwNzcxMjIzNS4yMi4wLjE3MDc3MTIyMzUuNjAuMC4w&_ga=2.204509072.142982747.1707712239-448579376.1702938196)
-* Adafruit QT Py ESP32
+* **Adafruit QT Py ESP32**
+The Adafruit QT Py ESP32 is a highly versatile development board that has been designed with great precision and attention to detail by Adafruit Industries.
+It has a compact form, and is equipped with a range of built-in sensors and connectivity options that make it an ideal choice to be used to collect data including temperature, humidity, and air quality, from sensors and transmit them wirelessly to a base station for further processing, visualization, and analysis.
+The Adafruit QT Py ESP32 is shown below:
+[Adafruit QT Py ESP32](https://www.adafruit.com/product/5395#description)
 ## Getting Started
 To get things started, it was required to:
 * Purchase the Swarm M138 Kit
