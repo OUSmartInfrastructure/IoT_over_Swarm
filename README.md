@@ -45,5 +45,6 @@ The Swarm M138 kit consist of the following key components:
 5. Swarm VHF Antenna and SparkFun Ground Plane: These componets are essental for establishing VHF (Very High Frequency) communication, which may be used for specific satellite communication protocols or ground-based communication.
    ![VHF Transceiver & Groundplane](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/VHF%20Antenna%2BGroundplane.jpg)
 7. Molex adhesive u.FL GNSS Antenna: This antenna is designed for GNSS (Global Navigation Satellite System) applications such as GPS, GLONASS, or Galileo to provide accurate positioning information.
-8. 2 x 25mm u.FL cables, u.FL to SMA adapter, and 2 x M2.5 screws: These accessories are used for connecting and seucuring the antennas and other components in the assembly.
+   ![GNSS Antenna](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/GNSS%20Antenna.jpg)
+9. 2 x 25mm u.FL cables, u.FL to SMA adapter, and 2 x M2.5 screws: These accessories are used for connecting and seucuring the antennas and other components in the assembly.
 ### Register the Swarm M138 Kit
