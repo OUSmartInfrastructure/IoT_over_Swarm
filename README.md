@@ -7,3 +7,14 @@ The objectives of the project are to monitor and manage green spaces, promote en
 * Encourage Low cost solutions: The Swarm M138 boards offer low-cost, low-power, and long-range communications over satellite in areas where traditional networks may be unavailable or unreliable thereby making it suitable reduced maintenance costs and improved environmental monitoring.
 * Scalability: The project could be scaled to monitor mulitple greeen roofs across different locations to provide valuable data for urban planning, environmental research, and sustainable development initiatives.
 * Research and Innovation: The project fosters research and innovation in the fields of IoT, satellite communication, and environmental monitoring to the development of new technologies and solutions for sustainable urban development.
+## Overview of Project Toolkits
+* Swarm M138 boards
+* Adafruit QT Py ESP32
+## Getting Started
+To get things started, it was required to:
+* Purchase the Swarm M138 Kit
+* Register the Swarm M138 Kit
+* Setup the Swarm M138 Kit
+* * Hardware
+  * Software
+* Test Satellite communication media
