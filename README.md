@@ -13,7 +13,7 @@ The Swarm M138 satellite data modem transmits and receives data to and from Swar
 The Swarm M138 allowsone to send and receive short messages, is perfect for a variety of low bandwidth use cases, and has a built-in GNSS receiver that makes it perfect for many tracking applications.
 It can be connected to a laptop using the serial-to-usb CH340 bus or to any IoT devices such as Raspberry Pi AND Adafruit to be used to send and receive messages anywhere.
 Figure-1 shows the Swarm package toolkit:
-![Figure-1](https://www.sparkfun.com/products/21287?_gl=1*1bzkibh*_ga*NDQ4NTc5Mzc2LjE3MDI5MzgxOTY.*_ga_T369JS7J9N*MTcwNzcxMjIzNS4yMi4wLjE3MDc3MTIyMzUuNjAuMC4w&_ga=2.204509072.142982747.1707712239-448579376.1702938196)
+[Figure-1](https://www.sparkfun.com/products/21287?_gl=1*1bzkibh*_ga*NDQ4NTc5Mzc2LjE3MDI5MzgxOTY.*_ga_T369JS7J9N*MTcwNzcxMjIzNS4yMi4wLjE3MDc3MTIyMzUuNjAuMC4w&_ga=2.204509072.142982747.1707712239-448579376.1702938196)
 * Adafruit QT Py ESP32
 ## Getting Started
 To get things started, it was required to:
