@@ -22,9 +22,9 @@ The Adafruit QT Py ESP32 is shown below:
 ## Getting Started
 To get things started, it was required to:
 * Purchase the Swarm M138 Kit
-* Register the Swarm M138 Kit
 * Setup the Swarm M138 Kit
 * * Hardware
+  * Register the Swarm M138 Kit
   * Software
 * Test Satellite communication media
 * Setup the Adafruit QT Py
@@ -42,4 +42,4 @@ The Swarm M138 kit consist of the following key components:
 3. Swarm VHF Antenna and SparkFun Ground Plane: These componets are essental for establishing VHF (Very High Frequency) communication, which may be used for specific satellite communication protocols or ground-based communication.
 4. Molex adhesive u.FL GNSS Antenna: This antenna is designed for GNSS (Global Navigation Satellite System) applications such as GPS, GLONASS, or Galileo to provide accurate positioning information.
 5. 2 x 25mm u.FL cables, u.FL to SMA adapter, and 2 x M2.5 screws: These accessories are used for connecting and seucuring the antennas and other components in the assembly.
-## Register the Swarm M138 Kit
+### Register the Swarm M138 Kit
