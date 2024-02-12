@@ -54,5 +54,5 @@ The initial hardware setup involves:
 3. Connect the type-c port on the modem to the USB port on PC that delivers 3.0V to 5V (preferably 3.3V).
 4. Ensure the M138 modem is in an open space free from moisture to enable it get its GPS logged onto the satellite.
 The figure below provides an illustration of the setup in our lab environment:
-   Hardware connection](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Hardware%20connection%20setup.jpg)
+   ![Hardware connection](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Hardware%20connection%20setup.jpg)
 ### Register the Swarm M138 Kit
