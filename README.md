@@ -31,3 +31,15 @@ To get things started, it was required to:
 * * Hardware
   * Software
 * Connecting the Adafruit QT Py to the Swarm M138 board
+## Purchase the Swarm M138 Kit
+The Swarm M138 package toolkit can be purchased online from:
+[Swarm M138](https://www.sparkfun.com/products/21287?_gl=1*1bzkibh*_ga*NDQ4NTc5Mzc2LjE3MDI5MzgxOTY.*_ga_T369JS7J9N*MTcwNzcxMjIzNS4yMi4wLjE3MDc3MTIyMzUuNjAuMC4w&_ga=2.204509072.142982747.1707712239-448579376.1702938196)
+## Setup the Swarm M138 Kit
+### Hardware
+The Swarm M138 kit consist of the following key components:
+1. Swarm M138 Modem: This is the main communication modem used for transmitting and receiving data over the satellite network.
+2. SparkFun Satellite Transceiver Breakout: This beakout board facilitates communication with satellites, enabling date transmission and reception
+3. Swarm VHF Antenna and SparkFun Ground Plane: These componets are essental for establishing VHF (Very High Frequency) communication, which may be used for specific satellite communication protocols or ground-based communication.
+4. Molex adhesive u.FL GNSS Antenna: This antenna is designed for GNSS (Global Navigation Satellite System) applications such as GPS, GLONASS, or Galileo to provide accurate positioning information.
+5. 2 x 25mm u.FL cables, u.FL to SMA adapter, and 2 x M2.5 screws: These accessories are used for connecting and seucuring the antennas and other components in the assembly.
+## Register the Swarm M138 Kit
