@@ -9,6 +9,9 @@ The objectives of the project are to monitor and manage green spaces, promote en
 * Research and Innovation: The project fosters research and innovation in the fields of IoT, satellite communication, and environmental monitoring to the development of new technologies and solutions for sustainable urban development.
 ## Overview of Project Toolkits
 * Swarm M138 boards
+The Swarm M138 satellite data modem transmits and receives data to and from Swarm’s space network and is designed to be embedded into any third-party product. 
+The Swarm M138 allowsone to send and receive short messages, is perfect for a variety of low bandwidth use cases, and has a built-in GNSS receiver that makes it perfect for many tracking applications.
+It can be connected to a laptop using the serial-to-usb CH340 bus or to any IoT devices such as Raspberry Pi AND Adafruit to be used to send and receive messages anywhere.
 * Adafruit QT Py ESP32
 ## Getting Started
 To get things started, it was required to:
