@@ -61,3 +61,4 @@ The following are the steps to register the modem:
 1. Create a hive account and [sign-in](https://bumblebee.hive.swarm.space/hive/ui/sign-up). After signing up, a registration email will be sent to you.
 2. Navigate to [register the device](https://bumblebee.hive.swarm.space/registerDevice).
 3. Click on the start scanning button to scan your swarm M138 modem QR code as shown below:
+   ![Scan QR code](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Scanning%20Modem%20to%20register.png)
