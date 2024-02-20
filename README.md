@@ -65,6 +65,7 @@ The following are the steps to register the modem:
 ### M138 Modem Communication Software
 The modem comes with a written python user friendly interface which can be downloaded and installed on your PC as follows:
 1. Download the SparkFun_Swarm_M138_GUI from [Python GUI](https://github.com/sparkfun/SparkFun_Swarm_M138_GUI/releases).
-2. In this example, we will illustrate how to install the windows version (SwarmM138GUI.win.zip) as follows:
+2. In this example, we will illustrate how to install the windows version (SwarmM138GUI.win.zip) as follows: Double click to install the application.
    ![SwarmM138 Win.version](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/SwarmM138GUI.win.exe.jpg).
-3. 
+3. After installation, you will be welcomed with a user interface as shown below:
+   ![SwarmM138 GUI](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/M138_User_interface_GUI.png).
