@@ -38,12 +38,12 @@ The Swarm M138 package toolkit can be purchased online from:
 ### Hardware Components
 The Swarm M138 kit consist of the following key components:
 1. Swarm M138 Modem: This is the main communication modem used for transmitting and receiving data over the satellite network.
-   ![M138 board](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/M138.png)
+   ![Figure-1:M138 board](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/M138.png)
 2. SparkFun Satellite Transceiver Breakout: This beakout board facilitates communication with satellites, enabling date transmission and reception.
-   ![Transceiver Breakout](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/breakoutpins.png)
+   ![Figure-2:Transceiver Breakout](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/breakoutpins.png)
    [Transceiver Breakout Pins](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide#breakout-pins)
 3. Swarm VHF Antenna and SparkFun Ground Plane: These componets are essental for establishing VHF (Very High Frequency) communication, which may be used for specific satellite communication protocols or ground-based communication.
-   ![VHF Transceiver & Groundplane](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/VHF%20Antenna%2BGroundplane.jpg)
+   ![Figure-3:VHF Transceiver & Groundplane](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/VHF%20Antenna%2BGroundplane.jpg)
 4. Molex adhesive u.FL GNSS Antenna: This antenna is designed for GNSS (Global Navigation Satellite System) applications such as GPS, GLONASS, or Galileo to provide accurate positioning information.
    ![GNSS Antenna](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/GNSS%20Antenna.jpg)
 5. 2 x 25mm u.FL cables, u.FL to SMA adapter, and 2 x M2.5 screws: These accessories are used for connecting and seucuring the antennas and other components in the assembly.
@@ -69,3 +69,5 @@ The modem comes with a written python user friendly interface which can be downl
    ![SwarmM138 Win.version](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/SwarmM138GUI.win.exe.jpg).
 3. After installation, you will be welcomed with a user interface as shown below:
    ![SwarmM138 GUI](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/M138_User_interface_GUI.png).
+NB: Ensure your PC supports the [USB-SERIAL CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers).
+After, connect the type-c port on the modem to the USB port on PC and the PC should be able to detect it as shown below:
