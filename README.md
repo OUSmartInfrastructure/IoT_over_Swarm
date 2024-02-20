@@ -62,7 +62,7 @@ The following are the steps to register the modem:
 2. Navigate to [register the device](https://bumblebee.hive.swarm.space/registerDevice).
 3. Click on the start scanning button to scan your swarm M138 modem QR code as shown below:
    ![Scan QR code](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Scanning%20Modem%20to%20register.png)
-### M138 Modem Communication Software
+### M138 Modem GUI Software Setup
 The modem comes with a written python user friendly interface which can be downloaded and installed on your PC as follows:
 1. Download the SparkFun_Swarm_M138_GUI from [Python GUI](https://github.com/sparkfun/SparkFun_Swarm_M138_GUI/releases).
 2. In this example, we will illustrate how to install the windows version (SwarmM138GUI.win.zip) as follows: Double click to install the application.
@@ -71,3 +71,5 @@ The modem comes with a written python user friendly interface which can be downl
    ![SwarmM138 GUI](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/M138_User_interface_GUI.png).
 NB: Ensure your PC supports the [USB-SERIAL CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers).
 After, connect the type-c port on the modem to the USB port on PC and the PC should be able to detect it as shown above.
+## Test Satellite communication media
+Now that we have our setup, we will proceed to send our first message from the M138 board to SparkFun Satellite, which will in-turn transport the message to a ground Swarm Hive. We will then use a browser and make REST API calls in the backend to download the messages from the Swarm Hive. Also note that the reverse is true: We can send messages to the Swarm Hive to be delivered to our M138 board once the satellite hovers over our board and exchanges beacon frames with it.
