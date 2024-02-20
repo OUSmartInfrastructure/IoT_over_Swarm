@@ -25,7 +25,7 @@ To get things started, it was required to:
 * Setup the Swarm M138 Kit
 * * Hardware
   * Register the Swarm M138 Kit
-  * Software
+  * Communication Software
 * Test Satellite communication media
 * Setup the Adafruit QT Py
 * * Hardware
@@ -62,3 +62,7 @@ The following are the steps to register the modem:
 2. Navigate to [register the device](https://bumblebee.hive.swarm.space/registerDevice).
 3. Click on the start scanning button to scan your swarm M138 modem QR code as shown below:
    ![Scan QR code](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Scanning%20Modem%20to%20register.png)
+### M138 Modem Communication Software
+The modem comes with a written python user friendly interface which can be downloaded and installed on your PC as follows:
+1. Download the SparkFun_Swarm_M138_GUI from [Python GUI](https://github.com/sparkfun/SparkFun_Swarm_M138_GUI/releases).
+2. In this example, we will illustrate how to install the windows version (SwarmM138GUI.win.zip) as follows:
