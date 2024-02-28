@@ -39,14 +39,15 @@ The Swarm M138 package toolkit can be purchased online from:
 The Swarm M138 kit consist of the following key components:
 1. Swarm M138 Modem: This is the main communication modem used for transmitting and receiving data over the satellite network.
    ![M138 board](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/M138.png)
-2. SparkFun Satellite Transceiver Breakout: This beakout board facilitates communication with satellites, enabling date transmission and reception.
+   "Figure 1"
+3. SparkFun Satellite Transceiver Breakout: This beakout board facilitates communication with satellites, enabling date transmission and reception.
    ![Transceiver Breakout](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/breakoutpins.png)
    [Transceiver Breakout Pins](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide#breakout-pins)
-3. Swarm VHF Antenna and SparkFun Ground Plane: These componets are essental for establishing VHF (Very High Frequency) communication, which may be used for specific satellite communication protocols or ground-based communication.
+4. Swarm VHF Antenna and SparkFun Ground Plane: These componets are essental for establishing VHF (Very High Frequency) communication, which may be used for specific satellite communication protocols or ground-based communication.
    ![VHF Transceiver & Groundplane](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/VHF%20Antenna%2BGroundplane.jpg)
-4. Molex adhesive u.FL GNSS Antenna: This antenna is designed for GNSS (Global Navigation Satellite System) applications such as GPS, GLONASS, or Galileo to provide accurate positioning information.
+5. Molex adhesive u.FL GNSS Antenna: This antenna is designed for GNSS (Global Navigation Satellite System) applications such as GPS, GLONASS, or Galileo to provide accurate positioning information.
    ![GNSS Antenna](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/GNSS%20Antenna.jpg)
-5. 2 x 25mm u.FL cables, u.FL to SMA adapter, and 2 x M2.5 screws: These accessories are used for connecting and seucuring the antennas and other components in the assembly.
+6. 2 x 25mm u.FL cables, u.FL to SMA adapter, and 2 x M2.5 screws: These accessories are used for connecting and seucuring the antennas and other components in the assembly.
 ### Hardware Connection
 The initial hardware setup involves:
 1. Connect the VHF port on the modem with a u.FL cable to the VHF Transceiver and ground-plane.
@@ -72,4 +73,6 @@ The modem comes with a written python user friendly interface which can be downl
 NB: Ensure your PC supports the [USB-SERIAL CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers).
 After, connect the type-c port on the modem to the USB port on PC and the PC should be able to detect it as shown above.
 ## Test Satellite communication media
-Now that we have our setup, we will proceed to send our first message from the M138 board to SparkFun Satellite, which will in-turn transport the message to a ground Swarm Hive. We will then use a browser and make REST API calls in the backend to download the messages from the Swarm Hive. Note that the reverse is also true: We can send messages to the Swarm Hive to be delivered to our M138 board once the satellite hovers over our board and exchanges beacon frames with it.
+Now that we have our setup, we will proceed to send our first message from the M138 board to SparkFun Satellite, which will in-turn transport the message to a ground Swarm Hive. We will then use a browser and make REST API calls from our PC to the Swarm Hive to download the messages. Note that the reverse is also true: We can send messages to the Swarm Hive to be delivered to our M138 board once the satellite hovers over our board and exchanges beacon frames with it.
+### Send Message from Swarm M138 board
+1. Connect the SparkFun_Swarm_M138_GUI
