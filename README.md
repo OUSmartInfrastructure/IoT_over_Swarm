@@ -38,19 +38,19 @@ The Swarm M138 package toolkit can be purchased online from:
 ### Hardware Components
 The Swarm M138 kit consist of the following key components:
 1. Swarm M138 Modem: This is the main communication modem used for transmitting and receiving data over the satellite network.
-   ![M138 board](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/M138.png)
    __Figure 1:Front-view of M138 board__
+   ![M138 board](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/M138.png)
 2. SparkFun Satellite Transceiver Breakout: This beakout board facilitates communication with satellites, enabling date transmission and reception.
-   ![Transceiver Breakout](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/breakoutpins.png)
    __Figure 2:Back-view of M138 board__
+   ![Transceiver Breakout](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/breakoutpins.png)
    [Transceiver Breakout Pins](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide#breakout-pins)
 3. Swarm VHF Antenna and SparkFun Ground Plane: These componets are essental for establishing VHF (Very High Frequency) communication, which may be used for specific satellite communication protocols or ground-based communication.
    __Figure 3:VHF-Antenna and Ground-Plane__
    ![VHF Transceiver & Groundplane](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/VHF%20Antenna%2BGroundplane.jpg)
-5. Molex adhesive u.FL GNSS Antenna: This antenna is designed for GNSS (Global Navigation Satellite System) applications such as GPS, GLONASS, or Galileo to provide accurate positioning information.
+4. Molex adhesive u.FL GNSS Antenna: This antenna is designed for GNSS (Global Navigation Satellite System) applications such as GPS, GLONASS, or Galileo to provide accurate positioning information.
+   __Figure 4:M138 board and GNSS Antenna__
    ![GNSS Antenna](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/GNSS%20Antenna.jpg)
-  __Figure 4:M138 board and GNSS Antenna__ 
-6. 2 x 25mm u.FL cables, u.FL to SMA adapter, and 2 x M2.5 screws: These accessories are used for connecting and seucuring the antennas and other components in the assembly.
+5. 2 x 25mm u.FL cables, u.FL to SMA adapter, and 2 x M2.5 screws: These accessories are used for connecting and seucuring the antennas and other components in the assembly.
 ### Hardware Connection
 The initial hardware setup involves:
 1. Connect the VHF port on the modem with a u.FL cable to the VHF Transceiver and ground-plane.
@@ -58,28 +58,28 @@ The initial hardware setup involves:
 3. Connect the type-c port on the modem to the USB port on PC that delivers 3.0V to 5V (preferably 3.3V).
 4. Ensure the M138 modem is in an open space free from moisture to enable it get its GPS logged onto the satellite.
 The figure below provides an illustration of the setup in our lab environment:
+ __Figure 5:Swarm-M138 Connection Setup in lab__
    ![Hardware connection](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Hardware%20connection%20setup.jpg)
-    __Figure 5:Swarm-M138 Connection Setup in lab__
 ### Register the Swarm M138 Kit
 The newly purchased M138 board is registered to allow for a monthly subscription package of about $5 for a 750 data packet plan.
 The following are the steps to register the modem:
 1. Create a hive account and [sign-in](https://bumblebee.hive.swarm.space/hive/ui/sign-up). After signing up, a registration email will be sent to you.
 2. Navigate to [register the device](https://bumblebee.hive.swarm.space/registerDevice).
 3. Click on the start scanning button to scan your swarm M138 modem QR code as shown below:
-   ![Scan QR code](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Scanning%20Modem%20to%20register.png)
     __Figure 6:M138 board online registration__
+   ![Scan QR code](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Scanning%20Modem%20to%20register.png)
 ### M138 Modem GUI Software Setup
 The modem comes with a written python user friendly interface which can be downloaded and installed on your PC as follows:
 1. Download the SparkFun_Swarm_M138_GUI from [Python GUI](https://github.com/sparkfun/SparkFun_Swarm_M138_GUI/releases).
 2. In this example, we will illustrate how to install the windows version (SwarmM138GUI.win.zip) as follows: Double click to install the application.
+   __Figure 7:M138 board Local control software__
    ![SwarmM138 Win.version](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/SwarmM138GUI.win.exe.jpg).
-    __Figure 7:M138 board Local control software__
-3. After installation, you will be welcomed with a user interface as shown below: This software will be used to control the M138 board locally to send and receive messages via the USB Serial CH340 COM port.
-   ![SwarmM138 GUI](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/M138_User_interface_GUI.png).
+4. After installation, you will be welcomed with a user interface as shown below: This software will be used to control the M138 board locally to send and receive messages via the USB Serial CH340 COM port.
     __Figure 8:M138 board Local control installed software__
+   ![SwarmM138 GUI](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/M138_User_interface_GUI.png).
 NB: Ensure your PC supports the [USB-SERIAL CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers).
 After, connect the type-c port on the modem to the USB port on PC and the PC should be able to detect it as shown above.
 ## Test Satellite communication media
 Now that we have our setup, we will proceed to send our first message from the M138 board to SparkFun Satellite, which will in-turn transport the message to a ground Swarm Hive. We will then use a browser and make REST API calls from our PC to the Swarm Hive to download the messages. Note that the reverse is also true: We can send messages to the Swarm Hive to be delivered to our M138 board once the satellite hovers over our board and exchanges beacon frames with it.
 ### Send Message from Swarm M138 board
-1. Connect the SparkFun_Swarm_M138_GUI
+1. Connect the setup as shown in figure 5 and ensure the antenna is in the [clear view of the sky](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide#overview-of-the-swarm-network). The [LED](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide#hardware-hookup---usb) on the M138 board blinks green when it automatically locks its GPS to a satellite.
