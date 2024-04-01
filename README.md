@@ -31,6 +31,9 @@ To get things started, it was required to:
 * * Hardware
   * Software
 * Connecting the Adafruit QT Py to the Swarm M138 board
+* * Communicating over WI-FI with the QT-PY
+  * Writing code to test the interconnectivity.
+  * Testing the Connectivity.
 ## Purchase the Swarm M138 Kit
 The Swarm M138 package toolkit can be purchased online from:
 [Swarm M138](https://www.sparkfun.com/products/21287?_gl=1*1bzkibh*_ga*NDQ4NTc5Mzc2LjE3MDI5MzgxOTY.*_ga_T369JS7J9N*MTcwNzcxMjIzNS4yMi4wLjE3MDc3MTIyMzUuNjAuMC4w&_ga=2.204509072.142982747.1707712239-448579376.1702938196)
