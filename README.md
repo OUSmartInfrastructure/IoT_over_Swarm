@@ -27,12 +27,12 @@ To get things started, it was required to:
 * Setup the Swarm M138 Kit
   * Register the Swarm M138 Kit
   * Install Software
-  * Transmit Messages over the Satellite network
+  * Transmit Messages over the Satellite network-Test Case
 * Setup the Adafruit QT Py
   * Install Software
 * Connecting the Adafruit QT Py to the Swarm M138 board
-* * Communicating over WI-FI with the QT-PY
-  * Writing code to test the interconnectivity.
+* * Writing a wifi-to-serial communication media
+  * Test Communication with over Spacebee
   * Testing the Connectivity.
 ## Purchase the Swarm M138 Kit
 The Swarm M138 package toolkit can be purchased online from:
