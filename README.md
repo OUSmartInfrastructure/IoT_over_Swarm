@@ -19,7 +19,7 @@ The Adafruit QT Py ESP32 is a highly versatile development board that has been d
 It has a compact form, and is equipped with a range of built-in sensors and connectivity options that make it an ideal choice to be used to collect data including temperature, humidity, and air quality, from sensors and transmit them wirelessly to a base station for further processing, visualization, and analysis.
 ## Setup Topology
 The network was setup as follows:
-
+![Topology](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Network%20Topology.png)
 
 ## Getting Started
 To get things started, it was required to:
