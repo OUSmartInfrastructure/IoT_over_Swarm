@@ -1,6 +1,6 @@
 # IoT_over_Swarm
-This project is for setting up a green-roof IoT device to communicate using the Swarm M138 boards over satellite network.
-The objectives of the project are to monitor and manage green spaces, promote environmental sustainability, and leverage advanced technologies for positive social and ecological impacts.
+This project is for setting up a green-roof IoT device to communicate with a Swarm M138 board over spacebee satellite network.
+The objectives of the project are to monitor and manage green spaces, promote environmental sustainability, and leverage on advanced IoT technologies.
 ### Project Objectives
 * Promote Remote Monitoring: The project seeks to promote remote monitoring of green roofs in real-time;enabling constant observation and analysis of environmental conditions including temperature, humidity, moisture levels, light intensity, wind speed,  air quality, and biodivisty.
 * Promote Environmental Sustainability: The project contributes to environmental sustaninability by promoting green spaces, reducing heat island effects in urban areas, and improving air quality.
@@ -9,27 +9,27 @@ The objectives of the project are to monitor and manage green spaces, promote en
 * Research and Innovation: The project fosters research and innovation in the fields of IoT, satellite communication, and environmental monitoring to the development of new technologies and solutions for sustainable urban development.
 ## Overview of Project Toolkits
 * **Swarm M138 boards**
-The Swarm M138 satellite data modem transmits and receives data to and from Swarm’s space network and is designed to be embedded into any third-party product. 
-The Swarm M138 allow someone to send and receive short messages, is perfect for a variety of low bandwidth use cases, and has a built-in GNSS receiver that makes it perfect for many tracking applications.
-It can be connected to a laptop using the serial-to-usb CH340 bus or to any IoT devices such as Raspberry Pi AND Adafruit to be used to send and receive messages anywhere.
-The Swarm M138 package toolkit is shown below:
 [Swarm M138](https://www.sparkfun.com/products/21287?_gl=1*1bzkibh*_ga*NDQ4NTc5Mzc2LjE3MDI5MzgxOTY.*_ga_T369JS7J9N*MTcwNzcxMjIzNS4yMi4wLjE3MDc3MTIyMzUuNjAuMC4w&_ga=2.204509072.142982747.1707712239-448579376.1702938196)
+The Swarm M138 satellite data modem was used to transmit and receive data over the spacebee satellite. This provided the desired non-terrestrial connectivity between our remote green-field site and our local site (NOC).
+The Swarm M138 has an in-built GNSS receiver that makes it perfect for sending and receiving very short messages using the [NMEA command reference](https://www.sparkfun.com/datasheets/GPS/NMEA%20Reference%20Manual-Rev2.1-Dec07.pdf) language.
 * **Adafruit QT Py ESP32**
-The Adafruit QT Py ESP32 is a highly versatile development board that has been designed with great precision and attention to detail by Adafruit Industries.
-It has a compact form, and is equipped with a range of built-in sensors and connectivity options that make it an ideal choice to be used to collect data including temperature, humidity, and air quality, from sensors and transmit them wirelessly to a base station for further processing, visualization, and analysis.
 The Adafruit QT Py ESP32 is shown below:
 [Adafruit QT Py ESP32](https://www.adafruit.com/product/5395#description)
+The Adafruit QT Py ESP32 is a highly versatile development board that has been designed with great precision and attention to detail by Adafruit Industries.
+It has a compact form, and is equipped with a range of built-in sensors and connectivity options that make it an ideal choice to be used to collect data including temperature, humidity, and air quality, from sensors and transmit them wirelessly to a base station for further processing, visualization, and analysis.
+## Setup Topology
+The network was setup as follows:
+
+
 ## Getting Started
 To get things started, it was required to:
 * Purchase the Swarm M138 Kit
 * Setup the Swarm M138 Kit
-* * Hardware
   * Register the Swarm M138 Kit
-  * Communication Software
-* Test Satellite communication media
+  * Install Software
+  * Transmit Messages over the Satellite network
 * Setup the Adafruit QT Py
-* * Hardware
-  * Software
+  * Install Software
 * Connecting the Adafruit QT Py to the Swarm M138 board
 * * Communicating over WI-FI with the QT-PY
   * Writing code to test the interconnectivity.
@@ -84,6 +84,7 @@ NB: Ensure your PC supports the [USB-SERIAL CH340 drivers](https://learn.sparkfu
 After, connect the type-c port on the modem to the USB port on PC and the PC should be able to detect it as shown above.
 ## Test Satellite communication media
 Now that we have our setup, we will proceed to send our first message from the M138 board to SparkFun Satellite, which will in-turn transport the message to a ground Swarm Hive. We will then use a browser and make REST API calls from our PC to the Swarm Hive to download the messages. Note that the reverse is also true: We can send messages to the Swarm Hive to be delivered to our M138 board once the satellite hovers over our board and exchanges beacon frames with it.
+
 ### Send Message from Swarm M138 board
 1. Connect the setup as shown in figure 5 and ensure the antenna is in the [clear view of the sky](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide#overview-of-the-swarm-network). The [LED](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide#hardware-hookup---usb) on the M138 board blinks green when it automatically locks its GPS to a satellite.
 2. Open the SparkFun_Swarm_M138_GUI, select the correct COM port, and click on "Open Port" as shown in figure 8.
