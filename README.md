@@ -13,9 +13,7 @@ The objectives of the project are to monitor and manage green spaces, promote en
 The Swarm M138 satellite data modem was used to transmit and receive data over the spacebee satellite. This provided the desired non-terrestrial connectivity between our remote green-field site and our local site (NOC).
 The Swarm M138 has an in-built GNSS receiver that makes it perfect for sending and receiving very short messages using the [NMEA command reference](https://www.sparkfun.com/datasheets/GPS/NMEA%20Reference%20Manual-Rev2.1-Dec07.pdf) language.
 * **Adafruit QT Py ESP32**
-The Adafruit QT Py ESP32 is shown below:
-[Adafruit QT Py ESP32](https://www.adafruit.com/product/5395#description)
-The Adafruit QT Py ESP32 is a highly versatile development board that has been designed with great precision and attention to detail by Adafruit Industries.
+The [Adafruit QT Py ESP32](https://www.adafruit.com/product/5395#description) is a highly versatile development board that has been designed with great precision and attention to detail by Adafruit Industries.
 It has a compact form, and is equipped with a range of built-in sensors and connectivity options that make it an ideal choice to be used to collect data including temperature, humidity, and air quality, from sensors and transmit them wirelessly to a base station for further processing, visualization, and analysis.
 ## Setup Topology
 The network was setup as follows:
