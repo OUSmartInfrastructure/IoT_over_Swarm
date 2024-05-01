@@ -20,9 +20,9 @@ The network was setup as follows:
 
 ## Project Category
 To achieve the project objectives, the project was divided into 3 phases and finally merged to deliver the End-to-End Connectivity:
-Project-A: Satellite Connectivity Setup
-Project-B: WIFI-over-Serial Connectivity Setup
-Project-C: Green-house Connectivity Setup
+* Project-A: Satellite Connectivity Setup
+* Project-B: WIFI-over-Serial Connectivity Setup
+* Project-C: Green-house Connectivity Setup
 ## Project-A: Satellite Connectivity Setup
 * Purchase the Swarm M138 Kit
 ## Getting Started
