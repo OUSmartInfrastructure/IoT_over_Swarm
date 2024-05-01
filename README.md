@@ -16,7 +16,7 @@ The [Adafruit QT Py ESP32](https://www.adafruit.com/product/5395#description) is
 It has a compact form, and is equipped with a range of built-in sensors and connectivity options that make it an ideal choice to be used to collect data including temperature, humidity, and air quality, from sensors and transmit them wirelessly to a base station for further processing, visualization, and analysis. In this project, the QT Py was configured as a WiFi-to-Serial platform to enable remote control of the Swarm board via a wireless network connection.
 ## Setup Topology
 The network was setup as follows:
-![Topology](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Network%20Topology.png)
+![Topology](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Network%20Topology%20updated.png)
 
 ## Getting Started
 To get things started, it was required to:
