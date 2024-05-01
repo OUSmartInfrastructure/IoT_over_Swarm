@@ -19,10 +19,10 @@ The network was setup as follows:
 ![Topology](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Network%20Topology%20updated2.png)
 
 ## Project Category
-To achieve the project objectives, the project was divided into 3 phases and finally merged to deliver the End-to-End Connectivity:
-* Project-A: Satellite Connectivity Setup
-* Project-B: WIFI-over-Serial Connectivity Setup
-* Project-C: Green-house Connectivity Setup
+To meet the project objectives, the work was broken down into three distinct phases, each focusing on a specific aspect. These phases were later integrated to ensure comprehensive end-to-end connectivity:
+* Phase-A: Satellite Connectivity Setup
+* Phase-B: WIFI-over-Serial Connectivity Setup
+* Phase-C: Green-house Connectivity Setup
 ## Project-A: Satellite Connectivity Setup
 * Purchase the Swarm M138 Kit
 ## Getting Started
