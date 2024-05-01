@@ -23,7 +23,7 @@ To meet the project objectives, the work was broken down into three distinct pha
 * Phase-A: Satellite Connectivity Setup
 * Phase-B: WIFI-over-Serial Connectivity Setup
 * Phase-C: Green-house Connectivity Setup
-## Project-A: Satellite Connectivity Setup
+### Project-A: Satellite Connectivity Setup
 * The deployment of the satellite connectivity involved involved:
 * * Procurement of Swarm M138 Board
   * Registration of Supporting Python Program
