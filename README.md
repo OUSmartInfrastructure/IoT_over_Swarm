@@ -69,19 +69,20 @@ To activate the newly acquired M138 board and subscribe to a $5 monthly package 
    * M138 board online registration
     __Figure 6:M138 board online registration__
    ![Scan QR code](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Scanning%20Modem%20to%20register.png)
-
-### M138 Modem GUI Software Setup
-The modem comes with a written python user friendly interface which can be downloaded and installed on your PC as follows:
-1. Download the SparkFun_Swarm_M138_GUI from [Python GUI](https://github.com/sparkfun/SparkFun_Swarm_M138_GUI/releases).
-2. In this example, we will illustrate how to install the windows version (SwarmM138GUI.win.zip) as follows: Double click to install the application.
+#### Downloading supporting Python Program
+The modem is accompanied by a user-friendly Python interface that can be obtained and set up on a PC through the following steps:
+1. The SparkFun_Swarm_M138_GUI can be downloaded from [Python GUI](https://github.com/sparkfun/SparkFun_Swarm_M138_GUI/releases).
+2. For the Windows version installation (SwarmM138GUI.win.zip), the application can be installed by double-clicking on it.
+   * The installation process is depicted below:
    __Figure 7:M138 board Local control software__
    ![SwarmM138 Win.version](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/SwarmM138GUI.win.exe.jpg).
-4. After installation, you will be welcomed with a user interface as shown below: This software will be used to control the M138 board locally to send and receive messages via the USB Serial CH340 COM port.
+3. Upon successful installation, a user interface will be displayed, enabling local control of the M138 board for message transmission and reception via the USB Serial CH340 COM port.
+   * The installed software interface is shown below:
     __Figure 8:M138 board Local control installed software__
    ![SwarmM138 GUI](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/M138_User_interface_GUI.png).
-NB: Ensure your PC supports the [USB-SERIAL CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers).
-After, connect the type-c port on the modem to the USB port on PC and the PC should be able to detect it as shown above.
-## Test Satellite communication media
+NB: It is essential to verify that the PC supports the [USB-SERIAL CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers).
+Subsequently, connect the type-C port on the modem to the PC's USB port for detection, as illustrated above.
+#### Sending and Receiving messages over Satellite Network
 Now that we have our setup, we will proceed to send our first message from the M138 board to SparkFun Satellite, which will in-turn transport the message to a ground Swarm Hive. We will then use a browser and make REST API calls from our PC to the Swarm Hive to download the messages. Note that the reverse is also true: We can send messages to the Swarm Hive to be delivered to our M138 board once the satellite hovers over our board and exchanges beacon frames with it.
 
 ### Send Message from Swarm M138 board
