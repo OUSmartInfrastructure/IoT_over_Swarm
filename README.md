@@ -25,8 +25,8 @@ To meet the project objectives, the work was broken down into three distinct pha
 * Phase-C: Green-house Connectivity Setup
 ### Project-A: Satellite Connectivity Setup
 * The deployment of the satellite connectivity involved involved:
-* * Procurement of Swarm M138 Board
-  * Registration of Supporting Python Program
+  * Procurement of Swarm M138 Board
+  * Registration of Swarm board and downloading supporting Python Program
   * Monitoring of Satellite Constellations
 ## Getting Started
 To get things started, it was required to:
