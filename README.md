@@ -102,3 +102,10 @@ Users can also send messages, commands, or make REST API queries from the Swarm-
  As an example, a message "Hello World!" was received from the satellite, as depicted in the diagram below.
 
  ![Message-Received](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Received%20Messages.jpg)
+
+#### Monitoring of Satellite Constellations
+To monitor the Satellite Constellation in Swarm Networks, the following tools were utilized:
+1. Swarm Pass Checker: Swarm Networks offers a dedicated tool called [Swarm Pass Checker](https://kube.tools.swarm.space/pass-checker/).
+                       This tool allows users to check for Swarm satellite passes over specific locations and times, enabling efficient monitoring and coordination of satellite communication.
+2. Heavens-Above: [Heavens-Above](https://www.heavens-above.com/) is a popular platform used for tracking satellites and celestial objects.
+                       This tool allows users to check for Swarm satellite passes over specific locations and times, enabling efficient monitoring and coordination of satellite communication.
