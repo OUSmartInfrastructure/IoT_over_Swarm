@@ -84,7 +84,15 @@ NB: It is essential to verify that the PC supports the [USB-SERIAL CH340 drivers
 Subsequently, connect the type-C port on the modem to the PC's USB port for detection, as illustrated above.
 #### Sending and Receiving messages over Satellite Network
 With the setup in place, the next step involved initiating the transmission of the first message from the M138 board to the SparkFun Satellite. Subsequently, the satellite relayed the message to a ground Swarm Hive. Following this, we utilized a web browser [Swarm-Hive](https://bumblebee.hive.swarm.space/messages/) to retrieve the messages stored in the Swarm Hive. It is important to note that the process works bidirectionally: messages can also be sent to the Swarm Hive for delivery to our M138 board once the satellite aligns over our board and establishes communication through beacon frames.
-
 ### Send Message from Swarm M138 board
-1. Connect the setup as shown in figure 5 and ensure the antenna is in the [clear view of the sky](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide#overview-of-the-swarm-network). The [LED](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide#hardware-hookup---usb) on the M138 board blinks green when it automatically locks its GPS to a satellite.
-2. Open the SparkFun_Swarm_M138_GUI, select the correct COM port, and click on "Open Port" as shown in figure 8.
+1. The setup was connected as illustrated in figure 5, ensuring that the antenna had a [clear view of the sky](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide#overview-of-the-swarm-network).
+2. The [LED](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide#hardware-hookup---usb) on the M138 board blinked green upon automatically locking its GPS to a satellite.
+3. The SparkFun_Swarm_M138_GUI was launched, the appropriate COM port was selected, and "Open Port" was clicked following the instructions provided in figure 8.
+4. The desired message was input into the message dialogue box or chosen from preconfigured messages on the GUI to send.
+5. The messages could include text, data, or [commands](https://cdn.sparkfun.com/assets/9/1/0/e/3/SwarmM138-Modem-Product-Manual.pdf), or any other supported communication format by the Swarm M138 module.
+6. Once the message was composed, the GUI interface was used to send the message.
+7. The GUI managed the communication protocol and data transmission to ensure successful delivery to the Swarm network.
+8. The GUI provided feedback on the status of the message transmission, including delivery confirmation or encountered errors.
+9. As an example, a message "Hello World" was sent to the satellite, as depicted in the diagram below.
+
+
