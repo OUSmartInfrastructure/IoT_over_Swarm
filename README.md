@@ -93,6 +93,6 @@ With the setup in place, the next step involved initiating the transmission of t
 6. Once the message was composed, the GUI interface was used to send the message.
 7. The GUI managed the communication protocol and data transmission to ensure successful delivery to the Swarm network.
 8. The GUI provided feedback on the status of the message transmission, including delivery confirmation or encountered errors.
-9. As an example, a message "Hello World" was sent to the satellite, as depicted in the diagram below.
-
+9. As an example, a message "Hello World!" was sent to the satellite, as depicted in the diagram below.
+![Message-Sent](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Send%20Message.jpg)
 
