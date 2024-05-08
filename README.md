@@ -115,3 +115,4 @@ To monitor the Satellite Constellation in Swarm Networks, the following tools we
    
 We monitored the locations, movements, and constellations of the spacebee satellites, ensuring optimal communication and coordination within the satellite network.
    
+### Project-B: WIFI-over-Serial Connectivity Setup
