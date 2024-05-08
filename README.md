@@ -96,3 +96,8 @@ With the setup in place, the next step involved initiating the transmission of t
 9. As an example, a message "Hello World!" was sent to the satellite, as depicted in the diagram below.
 ![Message-Sent](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Send%20Message.jpg)
 ##### Receive Message from Swarm M138 board
+To receive messages from Swarm-M138 network, log into the [Swarm-Hive](https://bumblebee.hive.swarm.space/messages).
+Note that messages sent to the Swarm Satellite may take up to 24 hours to deliver, depending on the satellite constellatio.
+Users can also send messages, commands, or make REST API queries from the Swarm-Hive to control the Swarm-M138 board through the Swarm Satellite network.
+ As an example, a message "Hello World!" was received from the satellite, as depicted in the diagram below.
+ !(https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Received%20Messages.jpg)
