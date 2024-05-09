@@ -139,4 +139,5 @@ Subsequently, the following connections were made:
 * VIN was connected to 3.3V on the QT-PY.
 * TXO was connected to the Serial / UART RX input on the QT-PY.
 * RXI was connected to the Serial / UART TX output on the QT-PY
+  
 NB: Kindly consult the Network Topology for the diagrammatic setup.
