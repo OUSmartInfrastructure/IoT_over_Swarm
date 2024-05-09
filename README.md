@@ -132,6 +132,7 @@ The Adafruit QT Py ESP32 was purchased online from [Adafruit QT Py ESP32](https:
 Before connecting the Swarm board to the QT Py, there was a requirement to open the jumper links on the back of the Swarm board [jumper links](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide/all#hardware-hookup---breakout-pins). The image below illustrates the location of these jumper links:
 
 ![Jumper links](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/21218-Swarm-BreakoutPinJumpers.jpg)
+
 The TX0 breakout pin is connected to CH340 RX1 and the RXI is connected to CH340TX0. Both needs to be separated.
 Subsequently, the following connections were made:
 * GND was connected to GND / 0V on the QT-PY.
