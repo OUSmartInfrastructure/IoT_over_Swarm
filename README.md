@@ -52,7 +52,7 @@ The kit comprises essential components for satellite communication:
    __Figure 4:M138 board and GNSS Antenna__
    ![GNSS Antenna](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/GNSS%20Antenna.jpg)
 5. Accessories:Includes 2 x 25mm u.FL cables, u.FL to SMA adapter, and 2 x M2.5 screws for connecting and securing antennas and components in the assembly.
-#### A2:Hardware Setup of Swarm M138 Board
+#### A2: Hardware Setup of Swarm M138 Board
 To set up the Swarm M138 Board hardware effectively, the following were done:
 1. Connected the VHF port on the modem to the VHF Transceiver and ground-plane using a u.FL cable.
 2. Linked the GPS port on the modem to the GNSS Antenna with a u.FL cable.
@@ -61,7 +61,7 @@ To set up the Swarm M138 Board hardware effectively, the following were done:
    * Swarm-M138 Connection Setup in lab
  __Figure 5:Swarm-M138 Connection Setup in lab__
    ![Hardware connection](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/hardware%20setup.png)
-#### Registration of Swarm board
+#### A3: Registration of Swarm board
 To activate the newly acquired M138 board and subscribe to a $5 monthly package for a 750 data packet plan, the following are the steps to register the modem:
 1. Begun by creating a hive account and signing in at [sign-in](https://bumblebee.hive.swarm.space/hive/ui/sign-up). Upon successful sign-up, an email for registration will be dispatched.
 2. Proceeded to the device registration page by visiting [register the device](https://bumblebee.hive.swarm.space/registerDevice).
@@ -69,7 +69,7 @@ To activate the newly acquired M138 board and subscribe to a $5 monthly package 
    * M138 board online registration
     __Figure 6:M138 board online registration__
    ![Scan QR code](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Scanning%20Modem%20to%20register.png)
-#### Downloading supporting Python Program
+#### A4: Downloading supporting Python Program
 The modem is accompanied by a user-friendly Python interface that can be obtained and set up on a PC through the following steps:
 1. The SparkFun_Swarm_M138_GUI can be downloaded from [Python GUI](https://github.com/sparkfun/SparkFun_Swarm_M138_GUI/releases).
 2. For the Windows version installation (SwarmM138GUI.win.zip), the application can be installed by double-clicking on it.
@@ -82,9 +82,9 @@ The modem is accompanied by a user-friendly Python interface that can be obtaine
    ![SwarmM138 GUI](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/M138_User_interface_GUI.png).
 NB: It is essential to verify that the PC supports the [USB-SERIAL CH340 drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers).
 Subsequently, connect the type-C port on the modem to the PC's USB port for detection, as illustrated above.
-#### Sending and Receiving messages over Satellite Network
+#### A5: Sending and Receiving messages over Satellite Network
 With the setup in place, the next step involved initiating the transmission of the first message from the M138 board to the SparkFun Satellite. Subsequently, the satellite relayed the message to a ground Swarm Hive. Following this, we utilized a web browser [Swarm-Hive](https://bumblebee.hive.swarm.space/messages/) to retrieve the messages stored in the Swarm Hive. It is important to note that the process works bidirectionally: messages can also be sent to the Swarm Hive for delivery to our M138 board once the satellite aligns over our board and establishes communication through beacon frames.
-##### Send Message from Swarm M138 board
+##### A5.1: Send Message from Swarm M138 board
 1. The setup was connected as illustrated in figure 5, ensuring that the antenna had a [clear view of the sky](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide#overview-of-the-swarm-network).
 2. The [LED](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide#hardware-hookup---usb) on the M138 board blinked green upon automatically locking its GPS to a satellite.
 3. The SparkFun_Swarm_M138_GUI was launched, the appropriate COM port was selected, and "Open Port" was clicked following the instructions provided in figure 8.
@@ -95,7 +95,7 @@ With the setup in place, the next step involved initiating the transmission of t
 8. The GUI provided feedback on the status of the message transmission, including delivery confirmation or encountered errors.
 9. As an example, a message "Hello World!" was sent to the satellite, as depicted in the diagram below.
 ![Message-Sent](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Send%20Message.jpg)
-##### Receive Message from Swarm M138 board
+##### A5.2: Receive Message from Swarm M138 board
 To receive messages from Swarm-M138 network, log into the [Swarm-Hive](https://bumblebee.hive.swarm.space/messages).
 Note that messages sent to the Swarm Satellite may take up to 24 hours to deliver, depending on the satellite constellatio.
 Users can also send messages, commands, or make REST API queries from the Swarm-Hive to control the Swarm-M138 board through the Swarm Satellite network.
@@ -103,7 +103,7 @@ Users can also send messages, commands, or make REST API queries from the Swarm-
 
  ![Message-Received](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Received%20Messages.jpg)
 
-#### Monitoring of Satellite Constellations
+#### A6: Monitoring of Satellite Constellations
 To monitor the Satellite Constellation in Swarm Networks, the following tools were utilized:
 1. **Swarm Pass Checker:** Swarm Networks offers a dedicated tool called [Swarm Pass Checker](https://kube.tools.swarm.space/pass-checker/).
                        This tool allows users to check for Swarm satellite passes over specific locations and times, enabling efficient monitoring and coordination of satellite communication.
@@ -125,10 +125,10 @@ This capability is particularly valuable in scenarios where physical access to t
   * Connectivity between the Swarm M138 Board and the QT-PY
   * Writing the C++ CODE to control the Swarm board via the QT-PY
   * Testing the Connectivity
-#### Procurement of the Adafruit QT Py ESP32
+#### B1: Procurement of the Adafruit QT Py ESP32
 The Adafruit QT Py ESP32 was purchased online from [Adafruit QT Py ESP32](https://www.adafruit.com/product/5395#description).
 ![QT PY](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Adafruit%20ESP32%20QT%20Py.jpg)
-#### Connectivity between the Swarm M138 Board and the QT-PY
+#### B2: Connectivity between the Swarm M138 Board and the QT-PY
 Before connecting the Swarm board to the QT Py, there was a requirement to open the jumper links on the back of the Swarm board [jumper links](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide/all#hardware-hookup---breakout-pins). The image below illustrates the location of these jumper links:
 
 ![Jumper links](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/21218-Swarm-BreakoutPinJumpers.jpg)
@@ -142,7 +142,7 @@ Subsequently, the following connections were made:
   
 **NB: Kindly consult the Network Topology for the diagrammatic setup.**
 
-#### Writing the C++ CODE to control the Swarm board via the ESP32 QT-PY
+#### B3: Writing the C++ CODE to control the Swarm board via the ESP32 QT-PY
 The code provided is written in C++ for the [Arduino platform](https://www.arduino.cc/en/software). It utilizes libraries specific to Arduino, such as [**WiFi.h**](https://github.com/arduino-libraries/WiFi) and [**WebServer.h**](https://github.com/zhouhan0126/WebServer-esp32/tree/master), which are used for handling Wi-Fi connections and creating a web server, respectively.
 The code is intended to run on an ESP32 microcontroller, which is commonly programmed using the Arduino IDE and the Arduino programming language (based on C++).
 
