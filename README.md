@@ -134,7 +134,7 @@ Before connecting the Swarm board to the QT Py , there was a need to open the [j
 
 The TX0 breakout pin is connected to CH340 RX1 and the RXI is connected to CH340TX0. Both needs to be separated.
 Next we connected:
-*1. GND to GND / 0V on the QT-PY
-*2. VIN to 3.3V on the QT-PY
-*3. TXO to the Serial / UART RX input on the QT-PY
-*4. RXI to the Serial / UART TX output on the QT-PY
+1. GND to GND / 0V on the QT-PY
+2. VIN to 3.3V on the QT-PY
+3. TXO to the Serial / UART RX input on the QT-PY
+4. RXI to the Serial / UART TX output on the QT-PY
