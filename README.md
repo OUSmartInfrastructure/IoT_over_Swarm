@@ -120,9 +120,11 @@ The significance of Project-B lied in allowing for a seamless connectivity and i
 By establishing a WIFI-over-Serial connection using the Adafruit QT Py ESP32,we were able to exchange information, commands, and data wirelessly.
 This setup enhanced flexibility, mobility, and convenience in deploying and managing the Swarm-M138 board. In addition, it facilitated the remote monitoring, control, and configuration of the Swarm board from the Adafruit and vice versa.
 This capability is particularly valuable in scenarios where physical access to the devices is limited or impractical.
-
 * The deployment of the WIFI-over-Serial connectivity involved:
   * Procurement of the Adafruit QT Py ESP32
   * Connectivity between the Swarm M138 Board and the QT-PY
   * Writing the C++ CODE to control the QT-PY
   * Testing the Connectivity
+#### Procurement of the Adafruit QT Py ESP32
+The Adafruit QT Py ESP32 was purchased online from [Adafruit QT Py ESP32](https://www.adafruit.com/product/5395#description).
+![QT PY](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Adafruit%20ESP32%20QT%20Py.jpg)
