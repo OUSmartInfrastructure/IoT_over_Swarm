@@ -153,6 +153,7 @@ Following the installation of the code on the QT PY, a remote web interface was 
 
 A comprehensive video showcasing the complete project setup and its importance is available for viewing: 
 **Satellite communication over a serial-to-wireless setup; utilizing Swarm M138 board and ESP32-QT-PY**
+
 [![Satellite communication over serial-to-wireless setup; using Swarm M138 board and ESP32-QT-PY](https://img.youtube.com/vi/zNZ8H2eYsbI/0.jpg)](https://youtu.be/zNZ8H2eYsbI?si=-jxwDOhz4GNO6oG)
 
 # Future works
