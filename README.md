@@ -166,4 +166,13 @@ The project promotes remote monitoring of green roofs by enabling real-time obse
 
 By utilizing these technologies and tools, the project enables continuous remote monitoring of green roofs, facilitating the collection of valuable data for analysis, decision-making, and environmental management.
 
+**2. What are the environmental sustainability benefits of the project?**
+
+The project contributes to environmental sustainability in several ways:
+* **Promoting Green Spaces:** By monitoring and managing green roofs, the project helps in promoting green spaces, which in turn can reduce heat island effects in urban areas and improve air quality.
+* **Low-Cost Solutions:** The use of Swarm M138 boards offers low-cost, low-power, and long-range communications over satellites, especially in areas where traditional networks may be unavailable or unreliable. This leads to reduced maintenance costs and improved environmental monitoring.
+* **Research and Innovation:** The project fosters research and innovation in the fields of IoT, satellite communication, and environmental monitoring. This contributes to the development of new technologies and solutions for sustainable urban development, furthering environmental sustainability efforts.
+
+By promoting green spaces, offering low-cost solutions, enabling scalability, and fostering research and innovation, the project plays a significant role in advancing environmental sustainability objectives.
+
 
