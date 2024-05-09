@@ -4,7 +4,7 @@
 
 // Define WiFi credentials:
 const char* ssid = "a-itswireless";       // Your WiFi SSID
-const char* password = "1234567890";  // Your WiFi password
+const char* password = "xxxxxxxxx";  // Your WiFi password
 
 WebServer server(80);
 
