@@ -158,10 +158,12 @@ A comprehensive video showcasing the complete project setup and its importance i
 
 # Discussions:
 **1. How the project can promote remote monitoring of green roofs?**
-*The project promotes remote monitoring of green roofs by enabling real-time observation and analysis of environmental conditions such as temperature, humidity, moisture levels, light intensity, wind speed, air quality, and biodiversity.
+
+The project promotes remote monitoring of green roofs by enabling real-time observation and analysis of environmental conditions such as temperature, humidity, moisture levels, light intensity, wind speed, air quality, and biodiversity.
 * This is achieved through the deployment of IoT devices that communicate with Swarm M138 boards over the spacebee satellite network.
 * The project utilizes the Swarm Pass Checker tool to efficiently monitor satellite passes over specific locations and times, enhancing coordination of satellite communication.
 * The project leverages the capabilities of the Adafruit QT Py ESP32 for WIFI-over-Serial connectivity, allowing for wireless exchange of information, commands, and data with the Swarm M138 board.
+
 By utilizing these technologies and tools, the project enables continuous remote monitoring of green roofs, facilitating the collection of valuable data for analysis, decision-making, and environmental management.
 
 
