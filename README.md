@@ -24,7 +24,7 @@ To meet the project objectives, the work was broken down into three distinct pha
 * Phase-B: WIFI-over-Serial Connectivity Setup
 * Phase-C: Green-house Connectivity Setup
 ### Project-A: Satellite Connectivity Setup
-* The deployment of the satellite connectivity involved involved:
+* The deployment of the satellite connectivity involved:
   * Procurement of Swarm M138 Board
   * Hardware Setup of Swarm M138 Board
   * Registration of Swarm board
@@ -116,3 +116,13 @@ To monitor the Satellite Constellation in Swarm Networks, the following tools we
 We monitored the locations, movements, and constellations of the spacebee satellites, ensuring optimal communication and coordination within the satellite network.
    
 ### Project-B: WIFI-over-Serial Connectivity Setup
+The significance of Project-B lied in allowing for a seamless connectivity and interaction with the Swarm M138 board without the need for physical cables or direct connections.
+By establishing a WIFI-over-Serial connection using the Adafruit QT Py ESP32,we were able to exchange information, commands, and data wirelessly.
+This setup enhanced flexibility, mobility, and convenience in deploying and managing the Swarm-M138 board. In addition, it facilitated the remote monitoring, control, and configuration of the Swarm board from the Adafruit and vice versa.
+This capability is particularly valuable in scenarios where physical access to the devices is limited or impractical.
+
+* The deployment of the WIFI-over-Serial connectivity involved:
+  * Procurement of the Adafruit QT Py ESP32
+  * Connectivity between the Swarm M138 Board and the QT-PY
+  * Writing the C++ CODE to control the QT-PY
+  * Testing the Connectivity
