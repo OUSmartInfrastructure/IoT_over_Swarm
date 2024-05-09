@@ -123,7 +123,7 @@ This capability is particularly valuable in scenarios where physical access to t
 * The deployment of the WIFI-over-Serial connectivity involved:
   * Procurement of the Adafruit QT Py ESP32
   * Connectivity between the Swarm M138 Board and the QT-PY
-  * Writing the C++ CODE to control the QT-PY
+  * Writing the C++ CODE to control the Swarm board via the QT-PY
   * Testing the Connectivity
 #### Procurement of the Adafruit QT Py ESP32
 The Adafruit QT Py ESP32 was purchased online from [Adafruit QT Py ESP32](https://www.adafruit.com/product/5395#description).
@@ -140,4 +140,9 @@ Subsequently, the following connections were made:
 * TXO was connected to the Serial / UART RX input on the QT-PY.
 * RXI was connected to the Serial / UART TX output on the QT-PY
   
-NB: Kindly consult the Network Topology for the diagrammatic setup.
+**NB: Kindly consult the Network Topology for the diagrammatic setup.**
+
+#### Writing the C++ CODE to control the Swarm board via the QT-PY
+The code provided is written in C++ for the [Arduino platform](https://www.arduino.cc/en/software). It utilizes libraries specific to Arduino, such as [**WiFi.h**](https://github.com/arduino-libraries/WiFi) and [**WebServer.h**](https://github.com/zhouhan0126/WebServer-esp32/tree/master), which are used for handling Wi-Fi connections and creating a web server, respectively.
+The code is intended to run on an ESP32 microcontroller, which is commonly programmed using the Arduino IDE and the Arduino programming language (based on C++)
+
