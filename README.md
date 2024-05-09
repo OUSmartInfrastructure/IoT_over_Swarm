@@ -60,7 +60,7 @@ To set up the Swarm M138 Board hardware effectively, the following were done:
 4. Placed the M138 modem in a dry, open space to establish GPS connectivity with the satellite. For a visual representation of the setup in our lab environment, refer to:
    * Swarm-M138 Connection Setup in lab
  __Figure 5:Swarm-M138 Connection Setup in lab__
-   ![Hardware connection](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Hardware%20connection%20setup.jpg)
+   ![Hardware connection](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/hardware%20setup.png)
 #### Registration of Swarm board
 To activate the newly acquired M138 board and subscribe to a $5 monthly package for a 750 data packet plan, the following are the steps to register the modem:
 1. Begun by creating a hive account and signing in at [sign-in](https://bumblebee.hive.swarm.space/hive/ui/sign-up). Upon successful sign-up, an email for registration will be dispatched.
