@@ -129,12 +129,13 @@ This capability is particularly valuable in scenarios where physical access to t
 The Adafruit QT Py ESP32 was purchased online from [Adafruit QT Py ESP32](https://www.adafruit.com/product/5395#description).
 ![QT PY](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Adafruit%20ESP32%20QT%20Py.jpg)
 #### Connectivity between the Swarm M138 Board and the QT-PY
-Before connecting the Swarm board to the QT Py , there was a need to open the [jumper links](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide/all#hardware-hookup---breakout-pins) on the back of the Swarm board as shown below:
+Before connecting the Swarm board to the QT Py, there was a requirement to open the jumper links on the back of the Swarm board [jumper links](https://learn.sparkfun.com/tutorials/sparkfun-satellite-transceiver-kit---swarm-m138-hookup-guide/all#hardware-hookup---breakout-pins). The image below illustrates the location of these jumper links:
 ![Jumper links](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/21218-Swarm-BreakoutPinJumpers.jpg)
 
 The TX0 breakout pin is connected to CH340 RX1 and the RXI is connected to CH340TX0. Both needs to be separated.
-Next we connected:
-1. GND to GND / 0V on the QT-PY
-2. VIN to 3.3V on the QT-PY
-3. TXO to the Serial / UART RX input on the QT-PY
-4. RXI to the Serial / UART TX output on the QT-PY
+Subsequently, the following connections were made:
+* GND was connected to GND / 0V on the QT-PY.
+* VIN was connected to 3.3V on the QT-PY.
+* TXO was connected to the Serial / UART RX input on the QT-PY.
+* RXI was connected to the Serial / UART TX output on the QT-PY
+NB: Kindly consult the Network Topology for the diagrammatic setup.
