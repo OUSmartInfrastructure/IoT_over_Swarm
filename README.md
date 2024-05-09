@@ -145,13 +145,11 @@ Subsequently, the following connections were made:
 #### Writing the C++ CODE to control the Swarm board via the ESP32 QT-PY
 The code provided is written in C++ for the [Arduino platform](https://www.arduino.cc/en/software). It utilizes libraries specific to Arduino, such as [**WiFi.h**](https://github.com/arduino-libraries/WiFi) and [**WebServer.h**](https://github.com/zhouhan0126/WebServer-esp32/tree/master), which are used for handling Wi-Fi connections and creating a web server, respectively.
 The code is intended to run on an ESP32 microcontroller, which is commonly programmed using the Arduino IDE and the Arduino programming language (based on C++).
-The full code we wrote can be found at ![wifi-over-serial](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/nwifi-over-serial.ino)
-Upon installing the code in the QT PY, we obtained a remote web-interface to manage the swarm board as shown below:
+
+The complete code can be accessed at ![wifi-over-serial](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/nwifi-over-serial.ino)
+
+Following the installation of the code on the QT PY, a remote web interface was obtained to oversee the management of the swarm board. The interface is illustrated in the image below:
 ![wifi-over-serial webserver](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Wifi-over-serial%20control%20interface.png)
 
 
 
-26.  // Redirect back to the root page to display updated content
-  server.sendHeader("Location", "/"); // Set the redirection header to root page
-  server.send(303); // Send HTTP response status 303 (See Other)
-}
