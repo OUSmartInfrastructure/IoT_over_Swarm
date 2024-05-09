@@ -31,7 +31,7 @@ To meet the project objectives, the work was broken down into three distinct pha
   * Downloading supporting Python Program
   * Sending and Receiving messages over Satellite Network
   * Monitoring of Satellite Constellations
-#### Procurement of Swarm M138 Board
+#### A1: Procurement of Swarm M138 Board
 The Swarm M138 package toolkit is available for purchase online at [Swarm M138](https://www.sparkfun.com/products/21287?_gl=1*1bzkibh*_ga*NDQ4NTc5Mzc2LjE3MDI5MzgxOTY.*_ga_T369JS7J9N*MTcwNzcxMjIzNS4yMi4wLjE3MDc3MTIyMzUuNjAuMC4w&_ga=2.204509072.142982747.1707712239-448579376.1702938196)
 The kit comprises essential components for satellite communication:
 1. Swarm M138 Modem: This is the primary communication modem for data transmission over the satellite network.
@@ -52,7 +52,7 @@ The kit comprises essential components for satellite communication:
    __Figure 4:M138 board and GNSS Antenna__
    ![GNSS Antenna](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/GNSS%20Antenna.jpg)
 5. Accessories:Includes 2 x 25mm u.FL cables, u.FL to SMA adapter, and 2 x M2.5 screws for connecting and securing antennas and components in the assembly.
-#### Hardware Setup of Swarm M138 Board
+#### A2:Hardware Setup of Swarm M138 Board
 To set up the Swarm M138 Board hardware effectively, the following were done:
 1. Connected the VHF port on the modem to the VHF Transceiver and ground-plane using a u.FL cable.
 2. Linked the GPS port on the modem to the GNSS Antenna with a u.FL cable.
