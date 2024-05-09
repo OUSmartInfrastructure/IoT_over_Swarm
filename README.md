@@ -149,7 +149,7 @@ The code is intended to run on an ESP32 microcontroller, which is commonly progr
 The complete code can be accessed at ![wifi-over-serial](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/nwifi-over-serial.ino)
 
 Following the installation of the code on the QT PY, a remote web interface was obtained to oversee the management of the swarm board. The interface is illustrated in the image below:
-![wifi-over-serial webserver](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Wifi-over-serial%20control%20interface.png)
+![wifi-over-serial webserver](https://github.com/OUSmartInfrastructure/IoT_over_Swarm/blob/main/Communication%20with%20Swarm%20board%20over%20Wifi.png)
 
 # WIFI-Over-Serial Setup Guide:
 A comprehensive video showcasing the complete project setup and its importance is available for viewing: 
