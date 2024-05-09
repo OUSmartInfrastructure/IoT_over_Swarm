@@ -157,8 +157,6 @@ A comprehensive video showcasing the complete project setup and its importance i
 [![Satellite communication over serial-to-wireless setup; using Swarm M138 board and ESP32-QT-PY](https://img.youtube.com/vi/zNZ8H2eYsbI/0.jpg)](https://youtu.be/zNZ8H2eYsbI?si=-jxwDOhz4GNO6oG)
 
 # Discussions:
-**1. How the project can promote remote monitoring of green roofs?**
-
 The project promotes remote monitoring of green roofs by enabling real-time observation and analysis of environmental conditions such as temperature, humidity, moisture levels, light intensity, wind speed, air quality, and biodiversity.
 * This is achieved through the deployment of IoT devices that communicate with Swarm M138 boards over the spacebee satellite network.
 * The project utilizes the Swarm Pass Checker tool to efficiently monitor satellite passes over specific locations and times, enhancing coordination of satellite communication.
