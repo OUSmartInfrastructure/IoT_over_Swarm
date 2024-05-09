@@ -163,7 +163,9 @@ The project promotes remote monitoring of green roofs by enabling real-time obse
 * The project leverages the capabilities of the Adafruit QT Py ESP32 for WIFI-over-Serial connectivity, allowing for wireless exchange of information, commands, and data with the Swarm M138 board.
 * The use of Swarm M138 boards offers low-cost, low-power, and long-range communications over satellites, especially in areas where traditional networks may be unavailable or unreliable. This leads to reduced maintenance costs and improved environmental monitoring.
 * The project fosters research and innovation in the fields of IoT, satellite communication, and environmental monitoring. This contributes to the development of new technologies and solutions for sustainable urban development, furthering environmental sustainability efforts.
-
-
-
-
+# Future Works:
+Future works that can be explored as a continuation of this project by other researchers include:
+* Researchers can explore integrating advanced sensors to monitor additional environmental parameters on green roofs, such as soil moisture, CO2 levels, and plant health indicators. This expansion can provide more comprehensive data for analysis and decision-making.
+* Developing energy-efficient monitoring systems that consume minimal power can reduce operational costs and extend the lifespan of the monitoring devices, contributing to long-term cost savings.
+* Integrating the monitoring system with smart irrigation systems can optimize water usage on green roofs, promoting water conservation based on real-time environmental data.
+* Involving the community in environmental monitoring and sharing data from green roofs can raise awareness and encourage collaboration towards sustainable practices.
