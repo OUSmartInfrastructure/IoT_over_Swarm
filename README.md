@@ -1,4 +1,4 @@
-# Innovative IoT Applications in Environmental Monitoring: WiFi-to-Serial Connectivity with Swarm M138 and Adafruit QT Py ESP32
+# "Enhancing Urban Environmental Sustainability through Low-Cost IoT Solutions: Leveraging Swarm M138 for Green Roof Monitoring"
 This project is for setting up a green-roof IoT device to communicate with a Swarm M138 board over spacebee satellite network.
 The objectives of the project are to monitor and manage green spaces, promote environmental sustainability, and leverage on advanced IoT technologies.
 ### Project Objectives
